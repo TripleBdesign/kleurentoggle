@@ -1,0 +1,143 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html,
+  body {
+    height: 100%;
+    min-height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgreen;
+    color: black;
+  }
+
+  header,
+  footer {
+    flex: none;
+  }
+
+  .main {
+    position: relative;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header,
+  main,
+  footer {
+    padding: 20px;
+  }
+
+  .body-grijs,
+  .menuItem-grijs {
+    background: lightslategrey;
+  }
+
+  .body-fuchsia,
+  .menuItem-fuchsia {
+    background: fuchsia;
+  }
+
+  .body-oranje,
+  .menuItem-oranje {
+    background: orange;
+  }
+
+  .body-blauw,
+  .menuItem-blauw {
+    background: lightskyblue;
+  }
+
+  .body-petrol,
+  .menuItem-petrol {
+    background: #28595b;
+  }
+
+  .colorName {
+    padding: 10px;
+    color: #ccc;
+  }
+
+  .colorName-hidden {
+    display: none;
+  }
+
+  .colorName-visible {
+    display: block;
+  }
+
+  header {
+    color: black;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .hamburger {
+    margin-top: 20px;
+  }
+
+  .hamburger-hidden {
+    display: none;
+  }
+
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: tranparent;
+    color: darkolivegreen;
+  }
+
+  label {
+    font-size: 18px;
+  }
+
+  .link {
+    color: #aaa;
+  }
+
+  .menu {
+    list-style-type: none;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .menu-closed {
+    visibility: hidden;
+  }
+
+  .menu-opened {
+    visibility: visible;
+  }
+
+  .menuItem {
+    padding: 10px;
+    margin: 0 auto;
+    color: #ccc;
+  }
+
+  .radioButton {
+    margin-right: 5px;
+  }
+
+  small + small {
+    text-align: right;
+  }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kleurentoggle</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <script
+      src="https://kit.fontawesome.com/8345fa767d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Kleuren Toggle</h1>
+    </header>
+    <main class="main">
+      <p>Kies je favoriete kleur</p>
+      <i class="fas fa-bars hamburger"></i>
+      <ul class="menu menu-closed">
+        <li class="menuItem menuItem-grijs">
+          <input
+            type="radio"
+            class="radioButton"
+            id="grijs"
+            name="color"
+            value="grijs"          />
+          <label for="grijs">Grijs</label>
+        </li>
+        <li class="menuItem menuItem-fuchsia">
+          <input
+            type="radio"
+            class="radioButton"
+            id="fuchsia"
+            name="color"
+            value="fuchsia"
+          />
+          <label for="fuchsia">Fuchsia</label>
+        </li>
+        <li class="menuItem menuItem-oranje">
+          <input
+            type="radio"
+            class="radioButton"
+            id="oranje"
+            name="color"
+            value="oranje"
+          />
+          <label for="oranje">Oranje</label>
+        </li>
+        <li class="menuItem menuItem-blauw">
+          <input
+            type="radio"
+            class="radioButton"
+            id="blauw"
+            name="color"
+            value="blauw"
+          />
+          <label for="blauw">Blauw</label>
+        </li>
+        <li class="menuItem menuItem-petrol">
+          <input
+            type="radio"
+            class="radioButton"
+            id="petrol"
+            name="color"
+            value="petrol"
+          />
+          <label for="petrol">Petrol</label>
+        </li>
+      </ul>
+      <p class="colorName"></p>
+
+    </main>
+
+    <footer>
+      <small>© 2021 Bianca Bronsema</small>
+      <small>Eindopdracht JS Basic.</small>
+
+    </footer>
+
+  </body>
+
+</html>
