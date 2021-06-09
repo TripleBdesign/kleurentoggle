@@ -1,9 +1,9 @@
 * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
   html,
   body {
@@ -90,9 +90,15 @@
     margin-top: 20px;
     /* aanwijshandje */
     cursor: pointer;
+    /* hover */
+    transform: scaleX(0)
+    transform 0.5s;
   }
+/* hover */
+  .hamburger:hover::before
+  .hamburger:hover::after 
+    transform: scaleX(1);
 
-  .hamburger:hover .menuItem {display: block;}
 
   .hamburger-hidden {
     display: none;
