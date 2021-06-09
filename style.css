@@ -66,7 +66,7 @@
 
   .colorName {
     padding: 10px;
-    color: #ccc;
+    color:black;
   }
 
   .colorName-hidden {
@@ -88,6 +88,8 @@
 
   .hamburger {
     margin-top: 20px;
+    /* aanwijshandje */
+    cursor: pointer;
   }
 
   .hamburger-hidden {
@@ -141,3 +143,4 @@
   small + small {
     text-align: right;
   }
+

@@ -31,6 +31,8 @@ const onMenuItemClick = function (e) {
   const colorName = e.target.id;
   changeBodyBackgroundColor(colorName);
   displayColorLabel(colorName);
+  //wanneer ik als gebruiker op de kleur in het menu klik, klapt het menu weer terug in
+  menu.classList.toggle("menu-opened");
 };
 
 // Event-listeners hamburger
