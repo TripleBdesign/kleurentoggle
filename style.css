@@ -92,6 +92,8 @@
     cursor: pointer;
   }
 
+  .hamburger:hover .menuItem {display: block;}
+
   .hamburger-hidden {
     display: none;
   }
